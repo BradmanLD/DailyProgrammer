@@ -33,6 +33,5 @@ def repeats(s):
                 if sCopy == (s[i:] + s[:i]):
                         repeats += 1
         return repeats
-        
 
 main()
