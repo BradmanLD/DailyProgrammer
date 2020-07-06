@@ -29,11 +29,11 @@ def repeats(s):
         # I'd argue that "" repeats 0 times but the specification says it would return 1
         if s == "":
                  return 1
-        repeats = 0
+        copies = 0
         sCopy = s
         for i in range(len(s)):
                 if sCopy == (s[i:] + s[:i]):
-                        repeats += 1
-        return repeats
+                        copies += 1
+        return copies
 
 main()
