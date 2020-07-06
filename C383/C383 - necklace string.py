@@ -1,3 +1,5 @@
+# Thread: https://www.reddit.com/r/dailyprogrammer/comments/ffxabb/20200309_challenge_383_easy_necklace_matching/
+
 def main():
         # Print testing because its  10minute challenge
         print("Test One")
